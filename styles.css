@@ -272,7 +272,11 @@ footer a {
   }
 
   h1 {
-    font-size: 1.85rem;
+    font-size: 1.58rem;
+  }
+
+  .subtitle {
+    font-size: 0.96rem;
   }
 
   nav {
@@ -287,6 +291,7 @@ footer a {
   .intro > div {
     width: 100%;
     max-width: 100%;
+    overflow: visible;
   }
 
   .portrait {
@@ -298,7 +303,9 @@ footer a {
   p,
   li,
   .subtitle {
+    max-width: 100%;
     overflow-wrap: anywhere;
+    word-break: normal;
   }
 
   .quick-links a {
