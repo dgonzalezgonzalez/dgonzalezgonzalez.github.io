@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-labelledby="title desc">
+  <title id="title">Research lines</title>
+  <desc id="desc">Minimal abstract chart made of lines, dots, and annotations.</desc>
+  <rect width="640" height="460" fill="#f7f4ed"/>
+  <path d="M68 359h512M68 292h512M68 225h512M68 158h512M68 91h512" stroke="#d8d0c0" stroke-width="2"/>
+  <path d="M89 334c48-29 72-106 126-112 52-6 75 82 126 72 59-12 71-153 136-164 35-6 57 28 76 55" fill="none" stroke="#0d5c63" stroke-width="8" stroke-linecap="round"/>
+  <path d="M89 267c40 16 67 13 99-8 49-33 74-105 126-101 50 5 63 75 109 76 39 1 72-47 130-103" fill="none" stroke="#8a3b2d" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 16"/>
+  <g fill="#20201d">
+    <circle cx="215" cy="222" r="8"/>
+    <circle cx="341" cy="294" r="8"/>
+    <circle cx="477" cy="130" r="8"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#20201d">
+    <text x="68" y="48" font-size="24">evidence</text>
+    <text x="417" y="405" font-size="18">policy</text>
+    <text x="84" y="405" font-size="18">data</text>
+  </g>
+  <g font-family="Trebuchet MS, Verdana, sans-serif" font-size="13" fill="#6a675f">
+    <text x="229" y="214">RDD</text>
+    <text x="357" y="287">DiD</text>
+    <text x="492" y="123">ML</text>
+  </g>
+</svg>
