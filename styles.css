@@ -31,8 +31,10 @@ a {
   text-underline-offset: 0.16em;
 }
 
-a:visited {
-  color: var(--visited);
+a:visited,
+a:hover,
+a:active {
+  color: var(--link);
 }
 
 .site-header,
@@ -69,6 +71,24 @@ nav {
 nav a {
   color: var(--ink);
   text-decoration: none;
+}
+
+nav a:visited,
+nav a:hover,
+nav a:active,
+.quick-links a:visited,
+.quick-links a:hover,
+.quick-links a:active,
+.icon-links a:visited,
+.icon-links a:hover,
+.icon-links a:active,
+.site-title:visited,
+.site-title:hover,
+.site-title:active,
+footer a:visited,
+footer a:hover,
+footer a:active {
+  color: var(--ink);
 }
 
 nav a:hover,
