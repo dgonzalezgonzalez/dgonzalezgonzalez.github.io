@@ -21,7 +21,7 @@
     <main class="page">
       <header class="page-title">
         <h1>Projects</h1>
-        <p>Policy consulting, empirical data work, dashboards, and small agent-assisted coding projects.</p>
+        <p>Policy consulting, empirical research, replication packages, dashboards, and agent-assisted coding projects.</p>
       </header>
 
       <section class="project-list" aria-labelledby="consultancy-title">
@@ -29,8 +29,9 @@
         <article>
           <h3>Demand-side policies for sustainable food choices</h3>
           <p>
-            Consulting work for the OECD Trade and Agriculture Directorate's Agro-food Trade and Markets
-            division on demand-side policies for sustainable food choices. The work combines policy
+            Consulting work from April 2025 to April 2026 for the OECD Trade and Agriculture
+            Directorate's Agro-food Trade and Markets division on demand-side policies for sustainable
+            food choices. The work combines policy
             research, empirical analysis, and applied data tools to study how governments can encourage
             more environmentally sustainable food consumption across OECD member and accession
             countries.
@@ -57,7 +58,7 @@
         <article>
           <h3>Supporting Food Systems Policy Workstreams: Analytical, Digital and Capacity Development</h3>
           <p>
-            Current consulting work for the OECD Food Systems Team on analytical, digital, and
+            Current consulting work (since June 2026) for the OECD Food Systems Team on analytical, digital, and
             capacity-building workstreams related to food systems policy. One part of the assignment
             focuses on a RAG-based meta-evaluation of food loss and waste policies, classifying
             evaluated policies and synthesising evidence on their effectiveness.
@@ -80,13 +81,23 @@
       <section class="project-list" aria-labelledby="github-title">
         <h2 id="github-title">Fun GitHub projects</h2>
         <ul>
-          <li><a href="https://github.com/dgonzalezgonzalez/danish-meat-tax">danish-meat-tax</a> - analysis of whether Denmark's 24 June 2024 Green Tripartite livestock carbon tax announcement changed Danish supermarket meat prices. The project builds monthly product-store panels from dagligepriser.dk price histories, normalizes prices to DKK per kilogram or liter, estimates difference-in-differences, event-study, subgroup, and synthetic DiD models, and includes a beef carbon-price calibration. See the <a href="https://github.com/dgonzalezgonzalez/danish-meat-tax/blob/main/paper/main.pdf">draft paper</a>.</li>
+          <li>
+            <a href="https://github.com/dgonzalezgonzalez/ape-policy-meta-analysis">ape-policy-meta-analysis</a> - reproducible meta-analysis of Project APE's automated policy evaluations. It screens 699 paper families to obtain 626 comparable standardized estimates, uses cached Jev annotations to classify outcome direction, and analyzes binary-treatment and continuous-exposure estimates separately. The package includes random-effects synthesis, sensitivity analysis, frozen inputs, and offline numerical replication. See the <a href="https://github.com/dgonzalezgonzalez/ape-policy-meta-analysis/blob/main/output/paper/main.pdf">draft paper</a>.
+          </li>
+          <li>
+            <a href="https://github.com/dgonzalezgonzalez/danish-meat-tax">danish-meat-tax</a> - analysis of beef prices, slaughter, and trade during Denmark's 2024 cattle-policy transition. It combines official Danish and European data with difference-in-differences and synthetic DiD estimation, exploratory grocery price-change diagnostics, and conditional carbon-damage scenarios. Concurrent nitrate regulation limits attribution to the tax announcement, and the European price comparison is imprecise. See the <a href="https://github.com/dgonzalezgonzalez/danish-meat-tax/blob/main/paper/main.pdf">draft paper</a>.
+          </li>
           <li><a href="https://github.com/dgonzalezgonzalez/faolex-analysis">faolex-analysis</a> - analysis of more than 40,000 FAOLEX food legislation records, including demand-side and supply-side classification, abstract-based embeddings, translation caching, cosine-similarity analysis against food-policy strategy queries, time trends, country maps, and a unified interactive dashboard.</li>
-          <li><a href="https://github.com/dgonzalezgonzalez/canarias-uni-ml">canarias-uni-ml</a> - Python pipeline for Canary Islands job postings and Spanish university degree catalogs. It scrapes job sources, normalizes geography and contract fields, builds a degree catalog, gates candidate job-degree pairs, computes text-embedding alignment scores, and stores outputs in CSV and SQLite.</li>
-          <li><a href="https://github.com/dgonzalezgonzalez/prestaciones-por-empleo">prestaciones-por-empleo</a> - Python pipeline for SEPE monthly unemployment-benefit reports. It detects and downloads new Excel files, processes selected benefit sheets, creates a wide Spanish-language dataset, generates AIReF-style static figures, and builds a local HTML dashboard with filters by sex, age, region, province, and period.</li>
-          <li><a href="https://github.com/dgonzalezgonzalez/Spain-AI-Exposure">Spain-AI-Exposure</a> - Spanish labor-market AI exposure pipeline using Anthropic, O*NET, and INE CNO-2011 data. It builds taxonomy-aware CNO4 embeddings, estimates exposure with Random Forest and cosine methods, and aggregates indices to OCUP1 and industry-quarter levels for SEPE-based analysis of 502 occupations. The accompanying working paper finds a positive post-2022 unemployment divergence among more AI-exposed occupations, especially workers aged 30-39, while effects on new contracts are small and imprecise.</li>
+          <li>
+            <a href="https://github.com/dgonzalezgonzalez/canarias-cantabria-unis-ml">canarias-cantabria-unis-ml</a> - Python pipeline for Canary Islands and Cantabria job postings and Spanish university degree catalogs. It scrapes public employment and job-board sources, normalizes geography and contract fields, builds a degree catalog, gates candidate job-degree pairs, computes text-embedding alignment scores, and stores outputs in CSV and SQLite.
+          </li>
+          <li>
+            <a href="https://github.com/dgonzalezgonzalez/prestaciones-por-empleo">prestaciones-por-empleo</a> - Python pipeline for SEPE monthly unemployment-benefit reports. It downloads new or modified Excel files, builds a Spanish-language dataset, and produces static figures and an interactive dashboard. The dashboard covers contributory benefits and unemployment subsidies, with demographic and territorial filters, eligibility causes, subsidy breakdowns, a territorial map, and CSV downloads.
+          </li>
+          <li>
+            <a href="https://github.com/dgonzalezgonzalez/Spain-AI-Exposure">Spain-AI-Exposure</a> - replication package for research on AI exposure and registered unemployment across 502 Spanish occupations, January 2021-March 2026. It maps Anthropic/O*NET exposure to CNO-2011 occupations, replays frozen embeddings and Jev measures, and runs the empirical analysis in Python, Stata, and R. The current manuscript documents a gradual unemployment divergence by exposure; aggregate new contracts show no persistent response. See the <a href="https://ieb.ub.edu/wp-content/uploads/2026/09/Doc2026-17_ok.pdf">IEB working paper</a> and <a href="https://github.com/dgonzalezgonzalez/Spain-AI-Exposure/blob/main/paper/main.pdf">updated manuscript</a>.
+          </li>
           <li><a href="https://github.com/dgonzalezgonzalez/replication-tracker-jpe-ej-ectj">replication-tracker-jpe-ej-ectj</a> - local-first tracker for JPE, JPE Macroeconomics, JPE Microeconomics, The Economic Journal, and The Econometrics Journal. It pulls paper metadata from OpenAlex, maps papers to Dataverse and Zenodo replication repositories, reads repository files and documentation, classifies data availability, and exports dashboard JSON.</li>
-          <li><a href="https://github.com/dgonzalezgonzalez/codex-claude-setup">codex-claude-setup</a> - portable backup of local Codex and Claude configuration, including rules, skills, agents, hooks, and plugins, while excluding caches, logs, session histories, and temporary databases.</li>
         </ul>
       </section>
     </main>
